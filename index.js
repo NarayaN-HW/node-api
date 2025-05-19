@@ -3,7 +3,7 @@ import express from "express";
 var app = express();
 
 app.get("/user", function (req, res) {
-  res.send("Fetch GET Data From DataBase");
+  res.send("GET Fetch Data From DataBase");
 });
 
 app.post("/user/post", function (req, res) {
